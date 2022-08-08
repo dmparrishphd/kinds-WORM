@@ -1,0 +1,61 @@
+Section-Description:
+                ------------------------------------------------
+                DESCRIPTION
+                ------------------------------------------------
+Title:
+                Information about objects' types
+Package:
+                o3513117420576541506303054050227306572462227
+Type:
+                Package
+Version:
+                2022.8-081
+Date:
+                2022-08-08
+Author:
+                D. Michael Parrish [aut]
+Maintainer:
+                Neat O <neatoverse@yahoo.com>
+Description:
+                Retrieve information about objects' `class`,
+                `mode`, `storage.mode`, and `typeof.
+                    This file is
+                URN:UUID:6fe90dde-860e-441e-8f81-2be2f69b17c4#
+                DESCRIPTION
+License:
+                AGPL-3
+Encoding:
+                UTF-8
+Section-Install:
+                ------------------------------------------------
+                INSTALL
+                ------------------------------------------------
+                To install: copy this package, including its
+                containing subdirectory, to a known directory.
+                For consistency with the package design, the
+                name of the subdirectory should be
+                o3513117420576541506303054050227306572462227
+Section-Help:
+                ------------------------------------------------
+                HELP
+                ------------------------------------------------
+Usage:
+                kinds <- source ( "filepath" ) [[ 1 ]]
+                kinds ( ... )
+Arguments:
+                ...:    Any arguments
+Value:
+                A `data.frame` of four columns, one for each of
+                `class`, `mode`, `storage.mode`, and `typeof`.
+                The rows of the `data.frame` correspond with the
+                arguments. Each element of the `data.frame` is a
+                list containing informaiton on `class`, etc.
+Examples:
+                filepath.kinds <- paste0 (
+                    # INSERT FILEPATH PREFIX
+                    "/o3513117420576541506303054050227306572462227" ,
+                    "/kinds.R" )
+                kinds <- source ( filepath.kinds ) [[ 1 ]]
+                kinds()
+                kinds(1)
+                kinds(NULL,as.raw(1),TRUE,1L,1,0+1i,"1",list(),matrix(1))
