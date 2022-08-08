@@ -1,2 +1,1 @@
-# kinds-WORM
-extract type information
+[README](https://github.com/dmparrishphd/kinds-WORM#readme).
