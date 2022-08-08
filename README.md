@@ -1,1 +1,1 @@
-[README](https://github.com/dmparrishphd/kinds-WORM#readme).
+[README](https://github.com/dmparrishphd/kinds-CORW#readme).
